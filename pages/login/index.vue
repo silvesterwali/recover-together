@@ -21,11 +21,12 @@
                 rounded
                 outlined
               ></v-text-field>
-              <v-checkbox label="Remember me" class="my-3"></v-checkbox>
+              <v-checkbox label="Remember me" class="mt-1"></v-checkbox>
             </v-card-text>
-            <v-card-actions class="pa-8">
-              <v-spacer></v-spacer>
-              <v-btn color="primary" rounded>Login</v-btn>
+            <v-card-actions class="pl-8 pr-8 pb-10">
+              <v-btn color="primary" class="mb-10" x-large block rounded
+                >Login</v-btn
+              >
             </v-card-actions>
           </v-card>
         </v-form>

@@ -29,15 +29,14 @@
               ></v-text-field>
               <v-text-field
                 label="Password Confirmation"
-                class="my-2"
+                class="mt-1"
                 type="password"
                 rounded
                 outlined
               ></v-text-field>
             </v-card-text>
-            <v-card-actions class="pa-8">
-              <v-spacer></v-spacer>
-              <v-btn color="primary" rounded>Register</v-btn>
+            <v-card-actions class="pl-8 pr-8 pb-10">
+              <v-btn color="primary" x-large block rounded>Register</v-btn>
             </v-card-actions>
           </v-card>
         </v-form>
